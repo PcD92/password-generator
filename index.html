@@ -3,38 +3,41 @@
 
 <head>
     <meta charset="UTF-8" />
-    <!-- This is the first step in making the document responsive but scaling the items to screen -->
+    <!-- this is the first step in making the document responsive but scaling the items to screen -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Perry Davis Jr Homework-3 Random Password Generator -->
+    <!-- Perry Davis Jr homework-3 random password generator -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./src/assets/css/style.css" />
-    <!-- This is the title-->
+    <link rel="stylesheet" href="./src/assets/css/reset.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap" rel="stylesheet" />
+
+
+    <!-- this is the title -->
     <title>Password Generator</title>
 
 </head>
-<!-- This is the body -->
+<!-- this is the body -->
 
 <body>
-    <!--This is the wrapper container with all of the content-->
+    <!-- this is the wrapper container with all of the content -->
     <div id="wrapper">
         <header>
             <h1>Password Generator</h1>
         </header>
-        <!--This is the content area-->
+        <!-- this is the content area -->
         <div id="content">
             <h2>Generate a Password</h2>
             <hr>
-            <!-- This is a readonly text area for output-->
+            <!-- this is a readonly text area for output -->
             <textarea readonly id="password" placeholder="Your Secure Password!" aria-label="Generated Password"></textarea>
             <hr>
-            <!-- This is the div for the buttons -->
+            <!-- this is the div for the buttons -->
             <div id="btn">
-                <!-- This is the generate password button -->
+                <!-- this is the generate password button -->
                 <button id="generate">Generate
                     Password</button>
-                <!-- This is the copy button -->
+                <!-- this is the copy button -->
                 <button id="copy">Copy to Clipboard</button>
-
 
             </div>
         </div>

@@ -3,7 +3,6 @@
 var enter;
 var confirmNumber;
 var confirmCharacter;
-var confirmUppercase;
 var confirmLowercase;
 // start password variable values:
 // special characters
@@ -14,7 +13,7 @@ number = [1, 2, 3, 4, 5, 5, 6, 7, 8, 9];
 alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 // space is for uppercase conversion
 space = [];
-// choices declartes outside statement id statement so they can be concatenared upon condition
+// choices declares outside statement id statement so they can be concatenated upon condition
 var choices;
 // convers letters to uppercase
 var toUpper = function(x) {
@@ -104,8 +103,8 @@ function gneratePassword() {
     UserInput(ps);
     return ps;
 }
-// This puts the password value into the textbox
-// Changed function input to use textcontent
+// this puts the password value into the textbox
+// changed function input to use textcontent
 function UserInput(ps) {
     document.getElementById("password").textContent = ps;
 
@@ -115,9 +114,9 @@ var copy = document.querySelector("#copy");
 copy.addEventListener("click", function() {
     copyPassword();
 });
-// This copies the password value 
+// this copies the password value 
 function copyPassword() {
     document.getElementById("password").select();
     document.execCommand("Copy");
     alert("Password copied to clipboard!");
-}
+};

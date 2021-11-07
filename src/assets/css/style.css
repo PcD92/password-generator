@@ -1,8 +1,7 @@
 body {
-    background-color: #E8E8E8;
+    background-color: #36454f;
     margin: 0 auto;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #696969;
 }
 
 
@@ -62,7 +61,7 @@ textarea {
     padding-left: 15%;
     padding-right: 15%;
     width: 50%;
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: 'Mochiy Pop One', sans-serif;
     text-align: center;
     color: #696969;
     font-size: 18px;
@@ -94,6 +93,15 @@ textarea {
     background-color: #e7e7e7;
     font-size: 20px;
     padding: 14px 40px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#reload {
+    background-color: limegreen;
+    font-size: 20px;
+    padding: 14px 70px;
     border-radius: 15px;
     margin-left: 10px;
     margin-bottom: 10px;
@@ -156,6 +164,9 @@ textarea {
     }
     /* Styles for copy button */
     #copy {
+        margin-left: 22%;
+    }
+    #reload {
         margin-left: 22%;
     }
 }
