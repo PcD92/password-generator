@@ -46,8 +46,8 @@ The application should validate user input and ensure that at least one characte
 If, else if statement
 Once all prompts are answered, the user will be presented with a password matching the answered prompts. Displaying the generated password in an alert is acceptable, but attempt to write the password to the page instead.
 Event listener will determine the password output with function to populate the value into the test area.
- 
-The following webpage demonstrates the application functionality:
-https://pcd92.github.io/password-generator/
+
+The following webpage demonstrates the application functionality:Click [here](https://pcd92.github.io/password-generator) to visit application.
+
 
 ![An app window with the label Password Generator, an input field labeled Your Secure Password, and a Generate Password button.]
